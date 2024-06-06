@@ -38,7 +38,7 @@
         <!-- 个人肖像 -->
         <section class="me">
             <!-- 头像照片 -->
-            <img style="width: 50%; height: auto;" src="assets/images/avatar.jpg">
+            <img style="width: 50%; height: auto;" src="assets/images/avatar1.jpg">
             <h1 class="name">郭志彬（2024届）</h1>
             <h4 class="info-job">后端开发工程师（Java）</h4>
 
@@ -81,7 +81,7 @@
                     </h3>
                     <p>GPA<mark>3.43/4</mark>(专业前8%)</p>
                     <p> 2020-2023 <mark>连续三学年度</mark>获得校内奖学金、<mark>国家励志奖学金</mark></p>
-                    <p> 获英语四级 CET-4 证书</p>
+                    <p> 2022.06 获英语四级 CET-4 证书</p>
                     <p> 获珠海市职业技能精准培训“计算机程序设计员”证书</p>
                     <p> 2023.05 通过全国计算机与软件专业技术资格考试，获得<mark>软件设计师</mark>（中级证书）</p>
                 </li>
@@ -104,6 +104,31 @@
                 <p> 熟练Vue2/3及组件库ElementUI、ElementPlus，了解ES6语法、报表可视化技术ECharts等</p>
             </ul>
         </section>
+
+        <section class="work info-unit">
+            <h2>
+                <i class="fa fa-shopping-bag" aria-hidden="true"></i>工作经历</h2>
+            <hr/>
+                    <h3>
+                        <span>珠海创链云科技有限公司——Java 开发工程师（实习）</span>
+                        <time>2023.10 至 2024.4</time>
+                    </h3>
+                        <h4>
+                            <span>[项目] 任意门酒店预定系统</span>
+                        </h4>
+                        <ul class="info-content">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                            技术栈：Spring Boot+MyBatis-Plus+MySQL+Redis+JWT+WebSocket+EasyExcel+微信/支付宝支付 <br/>
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                                项目简述：作为一个自研的实时查价酒店预定系统，其拥有着多种角色，通过总管理员请求爬虫接口采集来的房型并绑定企业优惠码增添进数据库，当员工请求此酒店时，利用线程池携带企业优惠码并发去请求各个接口查询是否有房型及各个房型价格等，不同的角色的订单操作会触发邮件信息、WebSocket消息等。
+                                <br/>
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                                项目职责：设计数据库表结构、与前端及 UI 对接需求及接口、编写酒店、房型、订单、邮件、消息、工资统计等多个业务模块代码，具体包括利用策略+单例+工厂模式实现酒店接口、房型接口采集功能提升代码扩展性、利用 WebSocket 实现工单询价、订单问题反馈等功能。
+                                <br/>
+
+            </ul>
+        </section>
+
         <!-- 项目经验 -->
         <section class="project info-unit">
             <h2><i class="fa fa-terminal"></i>个人项目</h2>
@@ -122,17 +147,17 @@
 									https://github.com/GitHub-Japin/blog-java/tree/v1.5</a>
 							</span>
                     <ul class="info-content">
-                        <li>技术栈：Spring Boot+MyBatis-Plus+MySQL+Redis+ShardingSphere+Shiro+EasyExcel
-                            <br>+Vue+Element-UI+ECharts+Axios
-                        </li>
-                        <li>
-                            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+
+                        技术栈：Spring Boot+MyBatis-Plus+MySQL+Redis+ShardingSphere+Shiro+EasyExcel
+                            <br>+Vue+Element-UI+ECharts+Axios<br>
+
+                            <i class="fa fa-bars" aria-hidden="true"></i>
                             项目描述：项目采用主流的前后端分离项目架构，后端使用Spring Boot开发，前端使用Vue开发。分为客户端、管理端，客户端实现了博客展示、博客评论等功能，管理端实现了用户管理、分类管理、博客管理、操作日志管理、统计管理等功能
                             <br/>
                             <i class="fa fa-bars" aria-hidden="true"></i>
                             整个项目<mark>完全自主从零开始设计开发</mark>，包括负责需求设计、数据库设计、架构设计、UI设计、前后端功能实现、测试、JMeter压测等，因时间跨度大、后续学习了许多新技术，所以进行了多次迭代、而且越学越发觉本项目不完善，所以进行了部分<mark>优化与功能完善</mark>：如<mark>分表分库</mark>、读写分离、建立索引、采取缓冲等措施等来减轻数据库压力。引入JustAuth实现第三方登录并使用<mark>策略模式</mark>实现登录，由于项目启动速度过慢，通过排除依赖、懒加载等方式优化了项目启动速度。
                             <br/>
-                        </li>
                     </ul>
                 </li>
                 <li>
@@ -140,11 +165,11 @@
                         <span>[项目2] 基于SpringCloud的新闻资讯类系统的设计与实现(2023.6-2023.10)</span>
                     </h3>
                     <ul class="info-content">
-                        <li>技术栈：SpringCloud+Gateway+Nacos+OpenFeign+Seata+Kafka+MinIO+FreeMarker+MyBatis-Plus<br>
-                            +MySQL+Redis+Elasticsearch+MongoDB+JWT+Knife4j+ xxl-job
-                        </li>
-                        <li>
-                            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                     技术栈：SpringCloud+Gateway+Nacos+OpenFeign+Seata+Kafka+MinIO+FreeMarker+MyBatis-Plus<br>
+                            +MySQL+Redis+Elasticsearch+MongoDB+JWT+Knife4j+ xxl-job  <br/>
+
+                            <i class="fa fa-bars" aria-hidden="true"></i>
                             项目描述：项目包含三大平台：一个是自媒体管理平台，主要为自媒体用户提供素材管理，文章发布以及审核，图文数据的统计分析，粉丝数据的管理与统计，一个是app新闻客户端平台，在这里用户可以浏览新闻公告，还可以对文章进行点赞评论收藏等行为，另外一个是运营管理平台，该平台包括文意内容的人工审核功能，自媒体用户申请的审核功能，频道管理，内容管理，敏感词设置，各种数据的统计分析功能。
                             <br/>
                             <i class="fa fa-bars" aria-hidden="true"></i>
@@ -155,36 +180,36 @@
                             使用Kafka异步监听通知文章上下架，以达到解耦目的<br>
                             使用Elasticsearch完成文章分页检索、高亮显示以及利用MongoDB完成文章搜索历史记录、联想词功能<br>
                             使用xxl-job以及Redis实现定时计算热文章分值以及缓存分值高的数据<br>
-                            使用KafkaStream完成热文章分值实时计算
-                        </li>
-                    </ul>
+                            使用KafkaStream完成热文章分值<mark>实时计算</mark>
+
+
                 </li>
                 <li>
                     <h3>
-                        <span>[项目3] 基于 Spring Boot 与 Vue 的在线文件共享系统的设计与实现<mark>（全栈开发项目）</mark>(2023.10-2024.03)</span>
+                        <span>[项目3] 基于 Spring Boot 与 Vue 的在线文件共享系统的设计与实现<mark>（全栈开发项目）</mark>(2023.10-2024.3)</span>
                     </h3>
                     <span class="link">
 
                     </span>
                     <ul class="info-content">
-                        <li>技术栈：Spring Boot+MyBatis-Plus+MySQL+Redis+RabbitMQ+MinIO+SSE
-                            <br>+Vue+Element-UI+ECharts+Axios
-                        </li>
-                        <li>
-                            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                        技术栈：Spring Boot+MyBatis-Plus+MySQL+Redis+RabbitMQ+MinIO+SSE
+                            <br>+Vue+Element-UI+ECharts+Axios  <br/>
+
+                            <i class="fa fa-bars" aria-hidden="true"></i>
                             项目描述：项目采用主流的前后端分离项目架构，后端使用Spring Boot开发，前端使用Vue开发。具体包括完成了用户总管理（用户管理、角色管理、权限管理、操作日志管理、登录日志管理、黑名单管理），文件总管理（文件管理、文件收藏管理、文件标签管理、统计管理）、文本总管理（敏感词管理、标签管理、网站留言管理、广告管理、通知管理）、系统总管理（邮箱配置管理、邮箱模板管理、推送记录管理、系统开关配置管理、存储配置管理）等模块的设计及实现
                             <br/>
                             <i class="fa fa-bars" aria-hidden="true"></i>
                             项目职责：<br>
-                            整个项目完全自主从零开始设计开发，包括负责需求设计、数据库设计、架构设计、UI设计、前后端功能实现、测试、JMeter压测等<br>
+                            整个项目<mark>完全自主从零开始设计开发</mark>，包括负责需求设计、数据库设计、架构设计、UI设计、前后端功能实现、测试、JMeter压测等<br>
                             使用<mark>策略+工厂+单例模式</mark>完成了文件的（服务器、MinIO、腾讯云、阿里云）下载、上传功能<br>
                             实现了<mark>文件秒传、分片上传、断点续传</mark>功能<br>
                             通过创建MySQL<mark>存储过程、索引</mark>来优化SQL、通过采取Redis缓冲、配置<mark>读写分离</mark>来减轻数据库压力<br>
                             使用<mark>DFA（确定有穷自动机）算法</mark>完成文件名、用户名、网站评论等文本的敏感词过滤<br>
                             使用RabbitMQ完成文件分享邮件服务以达到削峰填谷、解耦、异步的目的<br>
                             使用<mark>SSE</mark>完成文件上传进度的消息通知<br>
-                            使用<mark>RBAC权限模型</mark>完成了用户角色权限模块开发，使之易扩展易维护<br>
-                        </li>
+                            使用<mark>RBAC权限模型</mark>完成了用户角色权限模块设计开发，使之易扩展易维护<br>
+
                     </ul>
                 </li>
             </ul>
